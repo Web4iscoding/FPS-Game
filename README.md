@@ -21,7 +21,7 @@ Storage: 5 GB available space
 Additional Notes: These are tentative and not final. Performance may vary from machine to machine.
 
 ## Installation
-Fork/clone this git repository via the ssh command (cmd here) as you would normally do.  
+Fork/clone this git repository via the ssh command (git@github.com:Web4iscoding/FPS-Game.git) as you would normally do.  
 The game can be run via the "Game Project" application.
 
 ## Graphical Abstract
