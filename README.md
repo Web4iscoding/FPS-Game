@@ -1,6 +1,6 @@
 # FPS-Game
 
-## Table of contents
+## Table of Contents
 
 - Requirements
 - Installation
@@ -9,7 +9,7 @@
 - Software Development Plan
 
 ## Requirements
-For developers/those who want to inspect the source code in an editor environment, the Unity Hub Application is required: https://unity.com/unity-hub
+For developers/those who want to inspect the source code in an editor environment, the [Unity Hub Application](https://unity.com/unity-hub) is required.
 
 In order to ensure smooth gameplay, the following specs (minimum) are highly recommended:  
 OS: Windows 10 or later/macOS High Sierra 10+ or later  
@@ -111,8 +111,74 @@ Waterfall development, which is defined as a "plan-driven" model, is one with se
 For the development of this software, if it were to take on the approach of the Waterfall method, our team would have to focus immensely on both the requirements definition and system & software design stages to avoid the situation of accomodating change (new features) after the process is underway. However, the flexible nature of our software's changes makes it unfavorable in a plan-driven environment; combined with the need for a prioritized Time-to-Market approach, this method would make it difficult for the team to respond to changing customer requirements.
 
 ### Agile
-Agile development, which is defined as engineering the software with the stages of Program Specification, Program Design and Program Implementation being inter-leaved, is viewed as more suitable for our development plan. As releasing prototypes or beta versions during the development of a video game is a must, it can only be achieved with an Agile approach. Moreover, the ever-changing of the features of this software makes it an absolute requirement to adopt a process which can respond to changes easily, which, with Agile, combined with a framework like SCRUM, makes this possible via accomodating changes during sprints. Additionally, this approach is even more supported by the fact that the software requires a high Time-to-Market, which according to the strategy detailed in the paper Strategic Decision Spectrum for Software Engineering by Dr. Song-Kyoo (Amang) Kim, the development method should shift its focus towards Agile on the Zone of Strategic Fit if we desire a good Time-to-Market, with one supporting example being the development of the APF (Action Puzzle Family) mobile game by South Korean company Com2uS.
+Agile development, which is defined as engineering the software with the stages of Program Specification, Program Design and Program Implementation being inter-leaved, is viewed as more suitable for our development plan. As releasing prototypes or beta versions during the development of a video game is a must, it can only be achieved with an Agile approach. Moreover, the ever-changing of the features of this software makes it an absolute requirement to adopt a process which can respond to changes easily, which, with Agile, combined with a framework like Scrum, makes this possible via accomodating changes during sprints. Additionally, this approach is even more supported by the fact that the software requires a high Time-to-Market, which according to the strategy detailed in the paper [Strategic Decision Spectrum for Software Engineering](https://ieeexplore.ieee.org/document/10406807) by Dr. Song-Kyoo (Amang) Kim, the development method should shift its focus towards Agile on the Zone of Strategic Fit if we desire a good Time-to-Market, with one supporting example being the development of the APF (Action Puzzle Family) mobile game by South Korean company Com2uS.
 
 **Q: What's the intending market of this software?**
 
 **A:** The target market of this software is the FPS playerbase who seeks a game with simple but fun mechanics, with a high-score system that enables players to compete with others to keep on with the replayability, similar to the massively popular video game DOOM.
+
+## Software Development Plan
+### Development Process
+As mentioned, an Agile approach is taken for the development of this project.
+
+The stages of developement are defined by the time separated between sprint sessions, and daily communications in a private SNS group:
+- Sprint Session: This is where the group gathers around to discuss the project in an overview-esque light. During one session, under the leadership of the Master, every member (including the Master himself) reports on the progess of their respective roles, as such, big updates for the software are often proposed here and are made a list of goals to be completed before the next sprint session.
+- Daily Communication: This composes of the communication (usually between two members) that involves the casual reporting of real-time news such as game-breaking errors that need to be fixed immediately, or any other small suggestions that can be implemented into the software itself without altering the goalpost of the current sprint objectives.
+
+For a more detailed view into the development process of this software, let's expand more into the "sprint" aspect.  
+Our team adopted a lightweight approach similar to that of the Scrum framework, which can be separated into the following:  
+1. The Initial Phase
+2. Sprint Cycles
+3. Project Closure  
+
+#### The Initial Phase
+This was the first ever group session during the first week, which was also one of the most important aspects to the development of this software.  
+During this phase, the members are separated into two sub-teams, notably the Main Developers Team and the Design & Testing Team, for the ease of separation of work. Then, the general objectives for this project was first proposed, being defined as the features outlined below:
+1. Main Character
+2. Game Logic
+3. Menu
+4. Enemies
+5. Timer
+6. Difficulties
+7. Different Scenes
+8. Settings
+9. Tutorial Mode
+10. Advanced Game Mechanics
+11. Battle Mode
+
+These elements were first proposed with a general view for their functions, with more features in each element to be introduced in later sprints.  
+Furthermore, the Design & Testing team co-operated with the design of 3D levels, characters, and game mechanics.
+
+#### Sprint Cycles
+After each sprint session every week, a sprint cycle begins.  
+In each sprint cycle, the Main Developers Team becomes the main force for the implementation of the proposed features with the help of the Design & Testing Team for minor coding; the main focus of the latter team is to keep expanding on the requirements of each corresponding feature and be the tester for each feature once one requirement has been finished.  
+For the testing of feature, as the uploading of the entire project folder onto GitHub would exceed the size limit of a remote git repository and require Git LFS (Large File Storage), the finished snippets would be uploaded onto a Google Drive instead, and the Design & Testing Team would access the source code there and test directly; this approach works as our team is relatively small, so losing any feature that GitHub provides us is not necessary a big loss compared to when the development's handled by a large corporation.  
+Additionally, during requirement engineering, no actual documentation was produced, instead, our team communicated directly for any new features to be updated.
+
+#### Project Closure
+The Project Closure phase was reached during the last week of development, which wrapped up the project and decided the necessary pieces of files to be pushed onto this git repository. This documentation was also written during this phase.
+
+### Members (Roles & Responsibilities & Portion)
+The team is separated into two sub-teams: the Main Developers Team and the Design & Testing Team. The former, is the team of the developers that deal with the Program Implementation part of the Agile process, they might (using the C# language in this case) build features from the ground up or implement modules from external libraries; the latter, is the team that is involved in the Program Specification (requirement engineering), Program Design (3D modeling and design, architecture design), and Testing procedures, with its additional minor role being a support team to the Main Developers Team by implementing smaller and not as important features.
+
+#### The Main Developers Team
+**Chong Kuan Pok COMP2116-221 p2304402 (Scrum Master)**  
+**Lai Chon Hou COMP2116-221 p2304281**  
+
+#### The Design & Testing Team
+**Lin Wai Wa COMP2116-221 p2304127**  
+**Milena Li COMP2116-221 p2304415**  
+**Pong Nga Man COMP2116-223 p2303993**  
+
+
+### Schedule
+///
+
+### Algorithm
+///
+
+### Current Status
+///
+
+### Future Plan
+///
