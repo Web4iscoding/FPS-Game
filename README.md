@@ -106,7 +106,7 @@ Waterfall development, which is defined as a "plan-driven" model, is one with se
 2. System and software design
 3. Implementation and unit testing
 4. Integration and system testing
-5. Operation and maintenance
+5. Operation and maintenance  
 For the development of this software, if it were to take on the approach of the Waterfall method, our team would have to focus immensely on both the requirements definition and system & software design stages to avoid the situation of accomodating change (new features) after the process is underway. However, the flexible nature of our software's changes makes it unfavorable in a plan-driven environment; combined with the need for a prioritized Time-to-Market approach, this method would make it difficult for the team to respond to changing customer requirements.
 
 ### Agile
