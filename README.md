@@ -146,13 +146,15 @@ During this phase, the members are separated into two sub-teams, notably the Mai
 10. Advanced Game Mechanics
 11. Battle Mode
 
-These elements were first proposed with a general view for their functions, with more features in each element to be introduced in later sprints.  
+These elements were first proposed with a general view for their functions, with more features and specifications in each element to be introduced in later sprints.  
 Furthermore, the Design & Testing team co-operated with the design of 3D levels, characters, and game mechanics.
 
 #### Sprint Cycles
 After each sprint session every week, a sprint cycle begins.  
-In each sprint cycle, the Main Developers Team becomes the main force for the implementation of the proposed features with the help of the Design & Testing Team for minor coding; the main focus of the latter team is to keep expanding on the requirements of each corresponding feature and be the tester for each feature once one requirement has been finished.  
-For the testing of feature, as the uploading of the entire project folder onto GitHub would exceed the size limit of a remote git repository and require Git LFS (Large File Storage), the finished snippets would be uploaded onto a Google Drive instead, and the Design & Testing Team would access the source code there and test directly; this approach works as our team is relatively small, so losing any feature that GitHub provides us is not necessary a big loss compared to when the development's handled by a large corporation.  
+In each sprint cycle, the Main Developers Team becomes the main force for the implementation of the proposed features with the help of the Design & Testing Team for minor coding; the main focus of the latter team is to keep expanding on the requirements of each corresponding feature and be the tester for each feature once one requirement has been finished.
+
+For the testing of feature, as the uploading of the entire project folder onto GitHub would exceed the size limit of a remote git repository and require Git LFS (Large File Storage), the finished snippets would be uploaded onto a Google Drive instead, and the Design & Testing Team would access the source code there and test directly; this approach works as our team is relatively small, so losing any feature that GitHub provides us is not necessary a big loss compared to when the development's handled by a large corporation.
+
 Additionally, during requirement engineering, no actual documentation was produced, instead, our team communicated directly for any new features to be updated.
 
 #### Project Closure
@@ -163,22 +165,31 @@ The team is separated into two sub-teams: the Main Developers Team and the Desig
 
 #### The Main Developers Team
 **Chong Kuan Pok COMP2116-221 p2304402 (Scrum Master)**  
+Responsible for the organziation of meetings and sprint sessions, and acts as the main force of this project. Contributed to the implementation of all of the features.  
 **Lai Chon Hou COMP2116-221 p2304281**  
+Acts as the secondary force of the engineering procedure; worked on the programming behind Main Character, Enemies, Different Scenes, Settings, Tutorial Mode and Battle Mode.
 
 #### The Design & Testing Team
 **Lin Wai Wa COMP2116-221 p2304127**  
+Concerns with the design of the "Living Room" and "PreBoss" scene, UI, "Mannequin" enemy; responsible for the testing procedure.  
 **Milena Li COMP2116-221 p2304415**  
+Concerns with the design of the "Domain" and "Boss" scene, UI, "Prison Realm" enemy; responsible for the testing procedure.  
 **Pong Nga Man COMP2116-223 p2303993**  
-
+Concerns with the design of the "City" scene, UI, Settings, "Zombie" enemy; responsible for the testing procedure.
 
 ### Schedule
-///
+For the ease of comprehension, the schedule of the development process is presented in the form of a gantt chart.  
+Do keep in mind each sprint meeting takes place between the subsequent weeks.
+
+![image](https://github.com/user-attachments/assets/4b6bff95-6d28-4677-aea2-1c056c88651c)
+
 
 ### Algorithm
-///
+???
 
 ### Current Status
-///
+As of now (one month after the Initial Phase of the project), the team has fulfilled every features originally proposed initially.  
+The game is released as an official release version of v1.0.
 
 ### Future Plan
 ///
