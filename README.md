@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0a8478ed-5487-4880-a43b-3d6665c96332)# FPS-Game
+# FPS-Game
 
 ## Table of contents
 
@@ -11,21 +11,21 @@
 ## Requirements
 For developers/those who want to inspect the source code in an editor environment, the Unity Hub Application is required: https://unity.com/unity-hub
 
-In order to ensure smooth gameplay, the following specs (minimum) are highly recommended:
-OS: Windows 10or later/macOS High Sierra 10+ or later
-Processor: Intel i5-8th Gen or equivalent
-Memory: 8GB RAM
-Graphics: GeForce GTX 950 or equivalent
-DirectX: Version 11/12 capable
-Storage: 5 GB available space
+In order to ensure smooth gameplay, the following specs (minimum) are highly recommended:  
+OS: Windows 10or later/macOS High Sierra 10+ or later  
+Processor: Intel i5-8th Gen or equivalent  
+Memory: 8GB RAM  
+Graphics: GeForce GTX 950 or equivalent  
+DirectX: Version 11/12 capable  
+Storage: 5 GB available space  
 Additional Notes: These are tentative and not final. Performance may vary from machine to machine.
 
 ## Installation
-Fork/clone this git repository via the ssh command (cmd here) as you would normally do.
+Fork/clone this git repository via the ssh command (cmd here) as you would normally do.  
 The game can be run via the "Game Project" application.
 
 ## Graphical Abstract
-For this proposed project, a First Person Shooter (FPS) game is built using the Unity Engine.
+For this proposed project, a First Person Shooter (FPS) game is built using the Unity Engine.  
 The game is a multi-platform First Person Shooter (FPS) game with multiple modes and can guarantee endless hours of replayability. With tutorial mode, the game’s basic mechanics can be thoroughly understood via the easy-to-follow on-screen instructions. The actual game is separated into 2 parts – Normal mode and Battle mode; with normal mode, the player can experience all the scenes independent to each other with a variety of difficulties; with battle mode, the level order is designed in a way to make the mode streamlined with an end after the boss battle.
 
 ![image](https://github.com/user-attachments/assets/59daeaad-0ef0-4763-bffb-8431710a2f06)
