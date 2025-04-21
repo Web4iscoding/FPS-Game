@@ -7,6 +7,7 @@
 - Graphical Abstract
 - Software Development Process & Purpose
 - Software Development Plan
+- Extra
 
 ## Requirements
 For developers/those who want to inspect the source code in an editor environment, the [Unity Hub Application](https://unity.com/unity-hub) is required.
@@ -21,8 +22,9 @@ Storage: 5 GB available space
 Additional Notes: These are tentative and not final. Performance may vary from machine to machine.
 
 ## Installation
-Fork/clone this git repository via the ssh command (git@github.com:Web4iscoding/FPS-Game.git) as you would normally do.  
-The game can be run via the "Game Project" application.
+For the binaries, fork and clone this git repository via the SSH command as you would normally do.  
+```git clone git@github.com:Web4iscoding/FPS-Game.git```  
+For the game, please download via [here](https://mega.nz/file/huQR0L4J#uxirrVUltJPXVKJ0GhV3TBJSnUQsbzgcpLvE46DFOi8) (Windows) or [here](https://mega.nz/file/EiBQzaiJ#4i9HRtw86WuY_ApYQPrKUqhy_iEiUgzTYMF-adFY9Qs) (macOS Intel/Apple Silicon) and run the game by clicking on the "Game Project" application.
 
 ## Graphical Abstract
 For this proposed project, a First Person Shooter (FPS) game is built using the Unity Engine.  
@@ -184,7 +186,12 @@ Do keep in mind each sprint meeting takes place between the subsequent weeks.
 ![image](https://github.com/user-attachments/assets/4b6bff95-6d28-4677-aea2-1c056c88651c)
 
 ### Algorithm
-???
+The software functions with a series of coded algorithms interacting with one another.  
+For example, every model/mesh has its own logics written behind it, which is tied to a specific script file written in C#.  
+To go more in-depth, take the enemies' AIs for instance, every enemy has their own finding path algorithm defined by the NavMesh API provided by Unity; the implementation behind the API is blackboxed, but the feature is achieved via the detection of NavMesh Surface by the NavMesh API, which provides a reliable method of chasing the Player via its path tracking.  
+Moreover, the enemies' logics are bounded by the use of State Machines and Singletons, with states such as Idle, Walking, Running, Attacking, and Dying, which are triggered by their respective stimulus.  
+
+![image](https://github.com/user-attachments/assets/fd9b020b-aedb-480e-9f5b-b8a1d476952a)
 
 ### Current Status
 As of now (one month after the Initial Phase of the project), the team has fulfilled every features proposed initially.  
@@ -193,14 +200,69 @@ As of now (one month after the Initial Phase of the project), the team has fulfi
 The game is released as an official stable release of v1.0.
 
 #### Core Features
-**Main Character** - 
+ - Main Character  
+The main character includes various basic functions not limited to: Movement, shooting, close attack, silent walk and HP bar. The movement of the player character is achieved via the universal WASD keybinds, with W being forward, S being backward, A being to the left and D being to the right.  
+Shooting is achieved via the standard left clicking of the mouse.  
+Left clicking of the mouse functions differently according to the current selected weapon, for long-ranged weapons (Pistol and AK-47), the button will perform the shooting function; for short-ranged weapon (Bat melee), the button will perform the swing action and damage nearby enemies.  
+Silent walk can be performed using the left CTRL button on the keyboard. When silent walk is toggled, player speed will be reduced by half of what was stored as the default speed, and the camera will be slightly pushed down to simulate the illusion of crouching.  
+Sprinting can also be utilized via using the left Shift button on the keyboard. With sprinting, the player’s speed will be increased by 2 times that of the original moving speed.  
+HP bar of the player can be found at the bottom left of the screen during gameplay. The UI changes color in accordance to the current health status: Green on full health, yellow when the health drops below 100, and red when it decreases near 40.  
+ - Game Logic  
+The game - during normal mode – is designed to be a loop. The enemy spawns are infinite and will not stop or interfere the game in any way, the only way for the game to end is to trigger the player death animation, which then makes the game to return to the main menu; from there, players can choose to continue the game, hence, creating a loop.
+ - Menu  
+The main menu of the game is relatively simple, with only three buttons to choose from: PLAY, SETTINGS, EXIT. They function exactly as the wordings say.
+ - Enemies  
+There are three main types of enemies present: Mannequin, Prison Realm and Zombie.  
+Each enemy has their own unique animations, HP and models. Mannequin and Zombie are designed to be humanoid enemies which deal damages with their hands, each with different chasing speed, the former being faster and the latter being slower. Prison Realm is a unique enemy only present in the Domain scene, it is a cube-shaped monster with an extremely fast chasing speed; The damage dealt to the player can be exponentially high due to the implemented features of the enemy, as a result, only one Prison Realm enemy is present at a time.  
+Other than the three mentioned standard enemies, a special Boss Mannequin can be found during the end of Battle mode. It is the boss version of the mannequin with increased size and damage.
+ - Timer  
+A simple timer can be found at the upper left of the screen during gameplay which indicates the current session’s playtime in simple {Minutes}:{Seconds} notation.
+ - Difficulties  
+After selecting the scene to be loaded into for Normal mode, three difficulties are provided for the player to choose from: Easy, Medium and Hard.  
+As the wordings imply, the difficulty of the game scales up or down depending on the player’s choice. The effects of altering the difficulty include: changing of HP, chasing speed, damages and number of spawns per wave of enemies.
+ - Scenes  
+There are three main scenes: Living Room, Domain and City; each equipped with its own enemies and map.  
+As the name implies, the Living Room scene takes place in a living room with Mannequins being the main enemies. The props in this map are entirety interactable, meaning that real-time physics will be applied to the items when they are moved by an external force (e.g. bullets).  
+The Domain scene has its main stage set on a beach, with a temple on top of a hill surrounded by palm trees. The main enemy of this scene is the Prison Realm. It is a relatively small map which reduces walkable area and forces the player to engage with the enemy close-up.  
+City, as the name suggests, is a map based on a city. The main enemies of this stage are Zombies. As the map’s size is comparably large, the enemy spawner is tied to the player’s location instead of being in fixed coordinates, so the Zombies will always spawn near the player in each wave.  
+There are two more scenes that are exclusive to Battle mode: PreBoss and Boss Scenes. We will explore more of these scenes in the Battle mode section later on.
+ - Settings  
+The setting menu can be accessed from either in-game or the main menu. The settings consist of brightness, Dots Per Inch (DPI) and volume. The slider bars are adjustable from: 0.1 – 5 for brightness, 10 – 100 for DPI and 0 – 1 for volume.  
+Once changed, the effects are applied throughout the entire game with the values stored using Unity’s PlayerPref.
+ - Tutorial Mode  
+Tutorial mode gives valuable intel to the player as to how the game functions, its mechanics and a general overview of how the game should be played.  
+It is designed to be simple with the principle of hand-holding the player step by step in mind, with following the instructions presented on screen, we aim to explain the game in-depth.  
+ - Advanced Game Mechanics  
+As mentioned earlier, there are 3 weapons in the game: Pistol, AK-47 and bat melee.  
+You can change between the weapons by pressing either: 1 for Pistol, 2 for AK-47 and Q for melee weapon.  
+ - Battle Mode  
+Battle mode is a mode that provides “levels” or “rounds” to complete with sub-rounds known as “waves” within each level; a boss can be found at the end which indicates an end to the mode.  
+The order of this mode is of the following:  
+Living Room (Wave 1)  
+Living Room (Wave 2)  
+Living Room (Wave 3)  
+Domain (Wave 1)  
+Domain (Wave 2)  
+Domain (Wave 3)  
+City (Wave 1)  
+City (Wave 2)  
+City (Wave 3)  
+PreBoss  
+Boss  
+It should be noted that unlike Normal mode, each new wave doubles the number of enemies previously presented. (e.g. 4 Mannequins in Wave 1 → 8 Mannequins in Wave 2 → 16 Mannequins in Wave 3)  
+The PreBoss scene is the second final scene just before the boss battle. It features a mixture of Mannequin and Zombie enemies, when all the enemies are defeated, it automatically transits to the final boss battle; this scene functions independently from the other scenes and does not contain waves.  
+The Boss scene has 2 types of enemies: Mannequin Boss and Mannequins.  
+The objective of this scene is to defeat the final boss of the mode; once Mannequin Boss is defeated, the mode ends and returns to the main menu automatically after displaying the winning screen.  
 
 #### In-Progress Work
-
+As of now, the multi-player feature and a leaderboard feature are being developed.
 
 #### Supported Platform
-
-
+Thanks to the flexibility of the Unity plaform, the game is easily supported on both Windows and macOS.
 
 ### Future Plan
-///
+For future iterations, the game will be refined to produce a more pleasant UI design.  
+Additionally, multi-player and leaderboard features will be implemented to compete with the online gaming market; with Agile, these complex features will be pushed out via beta releases until a stable version is reached, which will be v2.0, the next big update.
+
+## Extra
+
