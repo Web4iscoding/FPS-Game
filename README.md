@@ -29,7 +29,7 @@ For the game, please download via [here](https://mega.nz/file/huQR0L4J#uxirrVUlt
 
 ## Troubleshooting
 **Q: Error is reported upon running the macOS version: "Game Project” can’t be opened because Apple cannot check it for malicious software.**  
-**A:** This error is commonly caused by an update in the way that gatekeeper works on Catalina+. To address this issue, hold control + right click the file and open the application; if this still does not solve the issue, try the following command: sudo spctl --master-disable.
+**A:** This error is commonly caused by an update in the way that gatekeeper works on Catalina+. To address this issue, hold control + right click the application, then click "open" to launch; if this still does not solve the issue, try the following command: sudo spctl --master-disable.
 
 ## Graphical Abstract
 For this proposed project, a First Person Shooter (FPS) game is built using the Unity Engine.  
