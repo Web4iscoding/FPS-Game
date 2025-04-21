@@ -1,0 +1,11 @@
+Model Information:
+* title:	WINGMAN APEX LEGEND
+* source:	https://sketchfab.com/3d-models/wingman-apex-legend-f1faa46a235d4675b7341e7b55a1ac17
+* author:	Maksim.vorobiov (https://sketchfab.com/Maksim.vorobiov)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "WINGMAN APEX LEGEND" (https://sketchfab.com/3d-models/wingman-apex-legend-f1faa46a235d4675b7341e7b55a1ac17) by Maksim.vorobiov (https://sketchfab.com/Maksim.vorobiov) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

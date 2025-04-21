@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gojo Satoru
+* source:	https://sketchfab.com/3d-models/gojo-satoru-2194c71c3b634986a48c9c8973586ae9
+* author:	Элона (https://sketchfab.com/Elona_4956)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gojo Satoru" (https://sketchfab.com/3d-models/gojo-satoru-2194c71c3b634986a48c9c8973586ae9) by Элона (https://sketchfab.com/Elona_4956) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

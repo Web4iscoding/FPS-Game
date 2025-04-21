@@ -1,0 +1,11 @@
+Model Information:
+* title:	Boxing ring
+* source:	https://sketchfab.com/3d-models/boxing-ring-a5e9825aa7f74bf19a9e57a7a7581654
+* author:	atheeswari16 (https://sketchfab.com/atheeswari16)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Boxing ring" (https://sketchfab.com/3d-models/boxing-ring-a5e9825aa7f74bf19a9e57a7a7581654) by atheeswari16 (https://sketchfab.com/atheeswari16) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Mario p3d
+* source:	https://sketchfab.com/3d-models/mario-p3d-4eff3ba2971f479db339e8a44e7c7cc9
+* author:	lucasvicentesilva2009 (https://sketchfab.com/lucasvicentesilva2009)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Mario p3d" (https://sketchfab.com/3d-models/mario-p3d-4eff3ba2971f479db339e8a44e7c7cc9) by lucasvicentesilva2009 (https://sketchfab.com/lucasvicentesilva2009) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
