@@ -1,4 +1,4 @@
-# FPS-Game
+# Game
 
 ## Table of Contents
 
