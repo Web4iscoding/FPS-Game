@@ -183,13 +183,24 @@ Do keep in mind each sprint meeting takes place between the subsequent weeks.
 
 ![image](https://github.com/user-attachments/assets/4b6bff95-6d28-4677-aea2-1c056c88651c)
 
-
 ### Algorithm
 ???
 
 ### Current Status
-As of now (one month after the Initial Phase of the project), the team has fulfilled every features originally proposed initially.  
-The game is released as an official release version of v1.0.
+As of now (one month after the Initial Phase of the project), the team has fulfilled every features proposed initially.  
+
+#### Development Phase
+The game is released as an official stable release of v1.0.
+
+#### Core Features
+**Main Character** - 
+
+#### In-Progress Work
+
+
+#### Supported Platform
+
+
 
 ### Future Plan
 ///
