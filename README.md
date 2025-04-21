@@ -4,6 +4,7 @@
 
 - Requirements
 - Installation
+- Troubleshooting
 - Graphical Abstract
 - Software Development Process & Purpose
 - Software Development Plan
@@ -24,7 +25,11 @@ Additional Notes: These are tentative and not final. Performance may vary from m
 ## Installation
 For the binaries, fork and clone this git repository via the SSH command as you would normally do.  
 ```git clone git@github.com:Web4iscoding/FPS-Game.git```  
-For the game, please download via [here](https://mega.nz/file/huQR0L4J#uxirrVUltJPXVKJ0GhV3TBJSnUQsbzgcpLvE46DFOi8) (Windows) or [here](https://mega.nz/file/EiBQzaiJ#4i9HRtw86WuY_ApYQPrKUqhy_iEiUgzTYMF-adFY9Qs) (macOS Intel/Apple Silicon) and run the game by clicking on the "Game Project" application.
+For the game, please download via [here](https://mega.nz/file/huQR0L4J#uxirrVUltJPXVKJ0GhV3TBJSnUQsbzgcpLvE46DFOi8) (Windows) or [here](https://mega.nz/file/RihCjA6T#xQ0oEI1sCcRqXQ-RF8NnqnucYiQJNuuijYZe4JgbxyQ) (Apple Silicon) and run the game by clicking on the "Game Project" application.
+
+## Troubleshooting
+**Q: Error is reported upon running the macOS version: "Game Project” can’t be opened because Apple cannot check it for malicious software.**  
+**A:** This error is commonly caused by an update in the way that gatekeeper works on Catalina+. To address this issue, hold control + right click the file and open the application; if this still does not solve the issue, try the following command: sudo spctl --master-disable.
 
 ## Graphical Abstract
 For this proposed project, a First Person Shooter (FPS) game is built using the Unity Engine.  
